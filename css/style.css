@@ -42,6 +42,7 @@ body{
 
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 34px;
 }
 
 .header__logo{
@@ -120,4 +121,38 @@ body{
 
 
     padding: 16px 47px;
+}
+
+.background{
+    height: 310px;
+    background-color: rgb(244,246,250);
+
+
+}
+
+
+
+.background__ihner{
+   padding: 127px 574px;
+}
+
+.back__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    /* identical to box height, or 78% */
+
+
+    color: #1F3347;
+}
+
+.back__text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height, or 94% */
+
+    text-align: center;
+
+    color: #1F3347;
 }
