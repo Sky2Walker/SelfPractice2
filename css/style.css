@@ -172,7 +172,7 @@ h1,h2{
 
 .city__card-item{
     max-width: 424px;
-    
+
 
     margin-right: 16px;
     margin-bottom: 24px;
@@ -285,4 +285,71 @@ h1,h2{
     color: #FFFFFF;
 
     padding: 7px 21px;
+}
+
+
+.button__ihner{
+    margin-top: 61px;
+    margin-left: 480px;
+    margin-bottom: 124px;
+
+
+}
+
+.buttons__list{
+    display: flex;
+    align-items: center;
+
+}
+
+.buttons_item{
+    padding-right: 20px;
+
+
+}
+
+
+.button__link{
+
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px rgba(33, 39, 60, 0.12);;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #9DA1B4;
+}
+
+.prev{
+    padding: 14px 9px 13px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px rgba(33, 39, 60, 0.12);;
+    border-radius: 50%;
+    color: #22283C;
+}
+
+.next{
+    padding: 14px 8px 13px 9px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px rgba(33, 39, 60, 0.12);;
+    border-radius: 50%;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #6347F9;
+
 }
