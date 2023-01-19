@@ -31,6 +31,11 @@ body{
 
 }
 
+h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     max-width: 1320px;
     padding: 0 10px;
@@ -90,9 +95,7 @@ body{
     color: #1F3347;
 }
 
-.register{
 
-}
 
 .register__login{
     font-weight: 600;
@@ -126,6 +129,7 @@ body{
 .background{
     height: 310px;
     background-color: rgb(244,246,250);
+    margin-bottom: 120px;
 
 
 }
@@ -133,7 +137,7 @@ body{
 
 
 .background__ihner{
-   padding: 127px 574px;
+   padding: 127px 574px 154px;
 }
 
 .back__title{
@@ -155,4 +159,130 @@ body{
     text-align: center;
 
     color: #1F3347;
+}
+
+.city__card-ihner{
+    max-width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+.city__card-item{
+    max-width: 424px;
+    
+
+    margin-right: 16px;
+    margin-bottom: 24px;
+
+
+}
+
+.city__card-img{
+    border-radius: 14px 14px 0px 0px;
+}
+
+
+.city__card-title{
+    margin: 0 20px 24px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    /* or 83% */
+    padding-top: 30px;
+
+
+    color: #1F3347;
+}
+
+
+.card__description{
+    box-shadow: 0px 6px 24px #E4E2EE;
+    border-radius: 0px 0px 14px 14px;
+
+}
+
+
+.header__decs{
+    margin-left: 20px;
+    margin-bottom: 29px;
+}
+
+.desc__list{
+    display: flex;
+
+
+}
+
+.desc__item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.card__time-img{
+    margin-right: 10px;
+}
+
+.card__time_text{
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    /* identical to box height, or 75% */
+
+
+    color: #9DA1B4;
+}
+
+.card__bottom{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    padding-bottom: 31px;
+
+
+}
+
+.city__card-place{
+    display: flex;
+
+}
+
+.card__place-img{
+    margin-right: 10px;
+}
+
+.card__place_text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 13px;
+    /* or 81% */
+    max-width: 127px;
+
+
+    text-align: center;
+
+    color: #9DA1B4;
+    padding-right: 146px;
+}
+
+
+
+.card__price{
+    background: #6347F9;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 112% */
+
+
+    color: #FFFFFF;
+
+    padding: 7px 21px;
 }
