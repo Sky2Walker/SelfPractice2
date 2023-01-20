@@ -353,3 +353,76 @@ h1,h2{
     color: #6347F9;
 
 }
+
+
+.form__section{
+    height: 450px;
+
+    background-color: #9DA1B4;
+}
+.form__ihner{
+
+
+}
+
+.form{
+
+    text-align: center;
+    padding-top: 160px;
+
+
+}
+
+.form__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #22283C;
+
+}
+
+.form__input-mail{
+
+
+    background: #22283C;
+    border-radius: 4px;
+    padding: 21px 334px 20px 31px;
+
+}
+
+.form__btn{
+
+    cursor: pointer;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height, or 94% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    padding: 21px 24px 25px 20px;
+    background: #6347F9;
+    border-radius: 0px 4px 4px 0px;
+
+
+}
+
+.form__input-mail::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height, or 94% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
