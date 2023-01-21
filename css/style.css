@@ -517,3 +517,20 @@ h1,h2{
     margin-left: 377px;
     padding-top: 0;
 }
+
+.footer{
+    background: #1A2531;
+}
+
+.footer__text{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    padding-top: 29px;
+    padding-bottom: 28px;
+}
