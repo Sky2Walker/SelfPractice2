@@ -436,30 +436,31 @@ h1,h2{
 
 }
 
+
 .pre__footer{
     background-color: #0C1218;
 }
 
-.pre__footer_ihner{
-    
-    max-width: 249px;
+.pre__footer-contant{
+    padding-top: 64px;
 
+    display: flex;
+
+}
+
+
+.pre__footer-first{
+    margin-right: 85px;
 }
 
 .explore__pre__footer{
-    padding-top: 65px;
     display: flex;
-    text-align: center;
-
-
-
 }
 
 .pre__footer-img{
+    margin-right: 17px;
     width: 50px;
     height: 50px;
-    margin-right: 17px;
-    margin-bottom: 18px;
 }
 
 .pre__footer-title{
@@ -470,11 +471,13 @@ h1,h2{
 
 
     color: #FFFFFF;
+
 }
 
-
 .pre__footer-text{
-    max-width: 294px;
+    padding-top: 17px;
+    max-width: 295px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 25px;
@@ -482,13 +485,9 @@ h1,h2{
 
 
     color: #FFFFFF;
-
+    margin-bottom: 33px;
 }
 
-.follow_us-block{
-    padding-top: 33px;
-    max-width: 294px;
-}
 
 .followUs__title{
     font-weight: 600;
@@ -498,25 +497,20 @@ h1,h2{
 
 
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
+
 
 .follow__us-items{
     display: flex;
     align-items: center;
-
 }
 
 .followUs__item{
-    margin-right: 20px;
-    margin-bottom: 90px;
+    padding-right: 20px;
+    margin-bottom: 96px;
 }
 
-
-.tour_type{
-    margin-left: 377px;
-    padding-top: 0;
-}
 
 .footer{
     background: #1A2531;
@@ -533,4 +527,99 @@ h1,h2{
     color: #FFFFFF;
     padding-top: 29px;
     padding-bottom: 28px;
+}
+
+
+.tour_type{
+    margin-right: 117px;
+}
+
+.tour_-type-title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.tour__type-item{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 250% */
+
+
+    color: #FFFFFF;
+}
+
+
+.contact__info{
+    margin-right: 117px;
+}
+
+.contact__info-title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+
+    margin-bottom: 33px;
+}
+
+
+.contact__info-list{
+    max-width: 232px;
+
+}
+
+.contact__info-item{
+
+    margin-bottom: 25px;
+
+
+}
+
+
+.contact__info-img{
+    margin-right: 14px;
+}
+
+.contact__info-text{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 10px;
+    /* or 67% */
+
+
+    color: #FFFFFF;
+
+}
+
+
+.gallery-title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.gallery__items{
+    max-width: 311px;
+
+
+}
+
+
+.gallery__item{
+    border-radius: 4px;
 }
